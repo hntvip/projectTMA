@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Music Manager</title>
+	<link rel="stylesheet" href="bootstrap.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-10 col-md-offet-2">
+				<div class="buttons">
+					<button class="btn add-btn btn-success btn-custom">Add</button>
+					<button class="btn delete-btn btn-warning btn-custom">Delete</button>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="table-responsive">    
+				<table class="table table-hover table-bordered">
+					<thead>
+						<tr>
+							<th class="col-md-1 col-checkbox">
+								<input type="checkbox"/>
+							</th>
+							<th class="col-md-5">
+								Name	
+							</th>
+							<th class="col-md-3">
+								Genre
+							</th>
+							<th class="col-md-3 col-edit">
+								Action
+							</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td class="col-md-1 col-checkbox">
+								<input type="checkbox">
+							</td>
+							<td class="col-md-5">
+								Roling in the deep
+							</td>
+							<td class="col-md-3">
+								Pop
+							</td>
+							<td class="col-md-3 col-edit">
+								<button><i class="fa fa-pencil"></i></button>
+							</td>
+						</tr>
+						<tr>
+							<td class="col-md-1 col-checkbox">
+								<input type="checkbox"/>
+							</td>
+							<td class="col-md-5">
+								Healing the world
+							</td>
+							<td class="col-md-3">
+								Pop
+							</td>
+							<td class="col-md-3 col-edit">
+								<button><i class="fa fa-pencil"></i></button>
+							</td>
+						</tr>
+						<tr>
+							<td class="col-md-1 col-checkbox">
+								<input type="checkbox"/>
+							</td>
+							<td class="col-md-5">
+								Mad world
+							</td>
+							<td class="col-md-3">
+								Pop
+							</td>
+							<td class="col-md-3 col-edit">
+								<button ><i class="fa fa-pencil"></i></button>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+			<div class="table-footer">
+				<div class="col-md-6">
+					<p>Total Items: 3</p>
+					<p>Selected Items: 1</p>
+				</div>
+				<div class="col-md-3">
+					<span>Page size: </span>
+					<select>
+					  <option value="25">25</option>
+					  <option value="50">50</option>
+					  <option value="100">100</option>
+					  <option value="200">200</option>
+					</select>
+				</div>
+				<div class="col-md-1">
+					<input type="number" value="1" min="1" max="5"/>
+				</div>
+			</div>
+		</div>
+
+	</div>
+</body>
+</html>
